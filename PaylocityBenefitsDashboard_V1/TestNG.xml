@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="BenefitsDashboardV1">	
+<parameter name="browser" value="chrome"/>
+	<test name="Automation Challenge Test">
+		
+		<classes>
+			<class name="com.paylocitybenefitsdashboard.testCases.TC_AddEmployee" />			
+			<class name="com.paylocitybenefitsdashboard.testCases.TC_EditEmployee" />
+			<class name="com.paylocitybenefitsdashboard.testCases.TC_DeleteEmployee" />
+		</classes>
+	</test>
+</suite>
